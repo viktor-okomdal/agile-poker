@@ -1,6 +1,15 @@
 <template>
   <div class="home">
     <Header class="header"/>
+    <div class="content">
+      <p>I am a</p>
+      <router-link to="/">
+        <button>Product Owner</button>
+      </router-link>
+      <router-link to="/about">
+        <button>Team Member</button>
+      </router-link>
+    </div>
   </div>
 </template>
 
@@ -16,5 +25,15 @@ export default {
   .home{
     display: grid;
     place-items: center;
+    grid-template-rows: 20% 80%;
+    height: 100vh;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  button{
+    margin-top: 1rem;
   }
 </style>
