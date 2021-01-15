@@ -16,5 +16,19 @@
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
   }
+  button{
+    outline: none;
+    background: transparent;
+    border: 0.2rem solid black;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    &:hover{
+      background-color: pink;
+    }
+    &:active{
+      background-color: black;
+      color: white;
+    }
+  }
 
 </style>
