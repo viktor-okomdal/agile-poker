@@ -10,14 +10,16 @@
         <button>Team Member</button>
       </router-link>
     </div>
+    <Header class="header" />
   </div>
 </template>
 
 <script>
-  import Header from '@/components/Header.vue'
-
+import Header from "@/components/Header.vue";
 export default {
-  components: {Header}
+  components: {
+    Header,
+  },
 };
 </script>
 
