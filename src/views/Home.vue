@@ -1,12 +1,12 @@
 <template>
   <div class="home">
-    <Header class="header"/>
+    <Header class="header" />
     <div class="content">
       <p>I am a</p>
       <router-link to="/">
         <button>Product Owner</button>
       </router-link>
-      <router-link to="/about">
+      <router-link to="/Enter">
         <button>Team Member</button>
       </router-link>
     </div>
