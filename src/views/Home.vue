@@ -10,7 +10,6 @@
         <button>Team Member</button>
       </router-link>
     </div>
-    <Header class="header" />
   </div>
 </template>
 
@@ -37,5 +36,9 @@ export default {
   }
   button{
     margin-top: 1rem;
+    width: 15rem;
+  }
+  p{
+    font-size: 2rem;
   }
 </style>
