@@ -26,12 +26,13 @@ export default {
   .home{
     display: grid;
     place-items: center;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 20% 60%;
     height: 100vh;
   }
   .content{
     display: flex;
     flex-direction: column;
+    justify-content: start;
     align-items: center;
   }
   button{
