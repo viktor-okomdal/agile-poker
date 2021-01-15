@@ -1,11 +1,16 @@
 <template>
   <div>
-    <h1>Home</h1>
+    <EnterRoom />
   </div>
 </template>
 
 <script>
-export default {};
+import EnterRoom from "@/components/EnterRoom.vue";
+export default {
+  components: {
+    EnterRoom,
+  },
+};
 </script>
 
 <style></style>
