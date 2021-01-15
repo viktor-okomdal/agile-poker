@@ -3,7 +3,7 @@
     <Header class="header" />
     <div class="content">
       <p>I am a</p>
-      <router-link to="/">
+      <router-link to="/add/story">
         <button>Product Owner</button>
       </router-link>
       <router-link to="/Enter">

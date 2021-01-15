@@ -15,7 +15,6 @@ h1 {
 p,
 button {
   font-family: "Raleway", sans-serif;
-  font-size: 1.6rem;
 }
 button {
   outline: none;
@@ -24,6 +23,7 @@ button {
   border-radius: 0.6rem;
   padding: 1rem;
   cursor: pointer;
+  font-size: 1.6rem;
   &:hover {
     background-color: pink;
   }

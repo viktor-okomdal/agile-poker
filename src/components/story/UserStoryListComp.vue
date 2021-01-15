@@ -1,5 +1,5 @@
 <template>
-  <li>{{ story }} <button class="btn btn--del">DEL</button></li>
+  <li><p>{{ story }}</p><button class="btn btn--del">DEL</button></li>
 </template>
 
 <script>
