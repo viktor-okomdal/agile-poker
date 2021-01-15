@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import AddStory from "../views/AddStory.vue";
+import Enter from "../views/Enter.vue";
 
 const routes = [
   {
@@ -8,7 +9,11 @@ const routes = [
     name: "Home",
     component: Home,
   },
-
+  {
+    path: "/Enter",
+    name: "Enter",
+    component: Enter,
+  },
   {
     path: "/add/story",
     name: "Add User Story",
