@@ -1,16 +1,15 @@
 <template>
   <div class="home">
-    <Header class="header"/>
+    <Header class="header" />
     <div class="content">
       <p>I am a</p>
       <router-link to="/">
         <button>Product Owner</button>
       </router-link>
-      <router-link to="/about">
+      <router-link to="/Enter">
         <button>Team Member</button>
       </router-link>
     </div>
-    <Header class="header" />
   </div>
 </template>
 
@@ -24,18 +23,18 @@ export default {
 </script>
 
 <style scoped>
-  .home{
-    display: grid;
-    place-items: center;
-    grid-template-rows: 20% 80%;
-    height: 100vh;
-  }
-  .content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  button{
-    margin-top: 1rem;
-  }
+.home {
+  display: grid;
+  place-items: center;
+  grid-template-rows: 20% 80%;
+  height: 100vh;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  margin-top: 1rem;
+}
 </style>
